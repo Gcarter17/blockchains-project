@@ -1,0 +1,50 @@
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @keyframes slide-in-top {
+    0% {
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(10px);
+      }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+  }
+
+  @keyframes active {
+    0%   { width : 0; }
+    100% { width: 100%; }
+}
+
+@keyframes activeText {
+    0%   { 
+        color: black; 
+        font-weight: inherit;
+    }
+
+    30% {
+        font-weight: 600;
+        color: inherit;
+    }
+
+    60% {
+        font-weight: 800;
+        color: inherit;
+    }
+
+    100% { 
+        color: #2BB673; 
+        font-weight: 900;
+    }
+}

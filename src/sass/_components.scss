@@ -1,0 +1,68 @@
+.color-input {
+    font-weight: bold;
+    width: 250px;
+    height: 40px;
+    
+    padding: 1.5rem .5rem;
+    background-color: $blockchains-grey-light-2;
+    border: 2px solid $blockchains-blue !important;
+
+    border-radius: 5px;
+
+    font-family: OpenSans, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+       
+    &::placeholder {
+        font-weight: 300;
+    }
+}
+
+h1 {
+    color: $blockchains-blue;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 45px;
+    text-align: center;
+    a {
+        color: inherit;
+    }
+    span {
+        color: $blockchains-grey;
+    }
+}
+
+.dropdown {
+    &-parent {
+        display: flex;
+        flex-direction: column;
+        // margin: 0 auto 6rem;
+        max-height: 400px;
+        width: 250px;
+        overflow-y: scroll;
+    }
+
+    &-item {
+        padding: 6px 0 6px 1.5rem;
+        border: 1px solid rgba(grey, .55);
+        border-top: 0;
+        background-color: rgba($blockchains-grey-light, .5);
+
+        &:hover {
+            background-color: $blockchains-grey-light;
+            cursor: pointer;
+        }
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    @media (max-width: 1050px) {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,50 @@
+.objective-list {
+    li {
+        padding: .5rem 0 .5rem .5rem;
+        font-size: 16px;
+    }
+}
+
+.active {
+    position: relative;
+    width: fit-content;
+    color: $success-green;
+    font-weight: 900;
+    font-size: 16px;
+    animation-name: activeText;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+.active::after {
+    @media (min-width: 770px) {
+        content: ' ';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        padding-left: .5rem;
+        margin-left: .25rem;
+        width: 100%;
+        height: 1px;
+        background: $success-green;
+        animation-name: active;
+        animation-duration: 1.5s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: 1;
+    }
+}
+
+.active-plus {
+    animation-delay: 1.5s;
+    animation: slide-in-top 1.2s ease;
+}
+
+button {
+    animation: fadeIn 1.8s;
+    padding: 1rem;
+    margin-left: -1rem;
+    margin-top: 1rem;
+    font-family: "Galaxie Polaris";
+    text-transform: uppercase;
+
+}

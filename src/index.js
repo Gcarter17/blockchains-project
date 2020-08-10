@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from './App'
+import './css/main.css'
 
 const colorsList = [
   "AliceBlue",
@@ -152,9 +154,5 @@ const colorsList = [
   "YellowGreen",
 ];
 
-ReactDOM.render(
-  {
-    /* <YourComponentGoesHere /> */
-  },
-  document.getElementById("root")
-);
+
+ReactDOM.render(<App list={colorsList} />, document.getElementById("root"));

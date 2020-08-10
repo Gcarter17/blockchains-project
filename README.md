@@ -1,4 +1,12 @@
-# Project Instructions
+# Blockchains.com React Submission
+
+Thanks to the team at [Blockchains](Blockchains.com), you guys really provided a fun and unique applicant project. 
+
+My personal goal with this project was to utilize as many components of React as possible. You will notice I exercised multiple ways of doing things, such as functions built directly inside JSX as well as out, nested destructuring (or destructuring inception as I like to think of it) in addition to dot notation, prop-drilling as well as context API usage, the list goes on... 
+
+Want to get in touch? Shoot me an email at [gavinnoelcarter@gmail.com](mailto:gavinnoelcarter@gmail.com?subject=[GitHub]%20Source%20Gavin%20Carter)
+
+## Project Instructions
 
 - This app is currently in a broken state. You must create your component and add it to `ReactDOM.render` in `src/index.js` to get started.
 - Using React and CSS, create a `Typeahead` component that takes a `list` prop.

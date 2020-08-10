@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Galaxie Polaris";
+    src: url("GalaxiePolarisBold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("OpenSans-Regular.ttf");
+}
+
+$blockchains-blue: #0085a1;
+$blockchains-grey: #454f54;
+$blockchains-grey-light: #9FA4A7;
+$blockchains-grey-light-2: #f2f2f2;
+$success-green: #2BB673;
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    // font-family: Galaxie Polaris;
+    font-family: OpenSans, sans-serif;
+    background: $blockchains-grey-light-2;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $blockchains-blue; 
+  
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $blockchains-blue; 
+  }
+
+
+  
+.pageWrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container {
+    margin: 6rem auto 0;
+    height: fit-content;
+}
