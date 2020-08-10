@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/blockchains-project/static/css/main.6282f31f.chunk.css",
+    "main.js": "/blockchains-project/static/js/main.97741f9b.chunk.js",
+    "main.js.map": "/blockchains-project/static/js/main.97741f9b.chunk.js.map",
+    "runtime-main.js": "/blockchains-project/static/js/runtime-main.a80721bf.js",
+    "runtime-main.js.map": "/blockchains-project/static/js/runtime-main.a80721bf.js.map",
+    "static/js/2.283dd4f8.chunk.js": "/blockchains-project/static/js/2.283dd4f8.chunk.js",
+    "static/js/2.283dd4f8.chunk.js.map": "/blockchains-project/static/js/2.283dd4f8.chunk.js.map",
+    "index.html": "/blockchains-project/index.html",
+    "precache-manifest.5ceb2acd4024e4189b3d38c52fa9cce1.js": "/blockchains-project/precache-manifest.5ceb2acd4024e4189b3d38c52fa9cce1.js",
+    "service-worker.js": "/blockchains-project/service-worker.js",
+    "static/css/main.6282f31f.chunk.css.map": "/blockchains-project/static/css/main.6282f31f.chunk.css.map",
+    "static/js/2.283dd4f8.chunk.js.LICENSE.txt": "/blockchains-project/static/js/2.283dd4f8.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/blockchains-project/static/media/OpenSans-Regular.3ed9575d.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a80721bf.js",
+    "static/js/2.283dd4f8.chunk.js",
+    "static/css/main.6282f31f.chunk.css",
+    "static/js/main.97741f9b.chunk.js"
+  ]
+}
